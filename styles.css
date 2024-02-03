@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: darkgoldenrod;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: overline;
+}
+
+h2 {
+    color: orange;
+    font-size: 30px;
+    text-decoration: underline;
+    text-indent: 10px;
+}
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+li {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    text-indent: 25px;
+}
+
+a {
+    color:darkgoldenrod;
+    text-decoration: none;
+    background-color: darkred;
+    border-style: outset;
+    line-height: 1.5;
+}
+
+.food-pic {
+    width: 375px;
+    border-style: inset;
+    border-color: darkgoldenrod;
+}
+
+.food-pic.salmon {
+    border-style: double;
+}
