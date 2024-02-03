@@ -21,6 +21,10 @@ ul {
     list-style: circle;
 }
 
+.home-list {
+    list-style: none;
+}
+
 ol {
     list-style: upper-roman;
 }
