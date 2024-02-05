@@ -1,14 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: darkgoldenrod;
+    background-color:rgb(179, 149, 114);
+    color: darkred;
 }
 
 h1 {
-    color: orange;
-    text-align: center;
     font-size: 50px;
-    text-decoration: overline;
+    color: orange;
+}
+
+.title {
+    background-color: darkred;
+    text-align: center;
+    width: 400px;
+    height: 114px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    border: 7px inset orange;
+    padding: 22px;
 }
 
 h2 {
@@ -23,6 +42,54 @@ ul {
 
 .home-list {
     list-style: none;
+    font-size: 30px;
+}
+
+.home-list-element-1 a {
+    display: block;
+    background-color: darkred;
+    text-align: center;
+    width: 275px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border: 4px inset orange;
+}
+
+.home-list-element-1 a:hover {
+    background-color: rgb(43, 3, 3);
+}
+
+.home-list-element-2 a {
+    display: block;
+    background-color: darkred;
+    text-align: center;
+    width: 275px;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border: 4px inset orange;
+}
+
+.home-list-element-2 a:hover {
+    background-color: rgb(43, 3, 3);
+}
+
+.home-list-element-3 a {
+    display: block;
+    background-color: darkred;
+    text-align: center;
+    width: 275px;
+    height: 60px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border: 4px inset orange;
+}
+
+.home-list-element-3 a:hover {
+    background-color: rgb(43, 3, 3);
 }
 
 ol {
@@ -30,7 +97,7 @@ ol {
 }
 
 li {
-    font-size: 20px;
+    /*font-size: 30px;*/
 }
 
 p {
@@ -40,11 +107,8 @@ p {
 }
 
 a {
-    color:darkgoldenrod;
+    color:orange;
     text-decoration: none;
-    background-color: darkred;
-    border-style: outset;
-    line-height: 1.5;
 }
 
 .food-pic {
